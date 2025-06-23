@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: gray;
+}
+hr{
+    color:aliceblue;
+}
+
+/* Navbar */
+.navbar-brand img {
+    border-radius: 50%;
+}
+
+/* Hero Section */
+#hero {
+    background: url('images/hero-bg.jpg') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h1 span {
+    color: #007bff;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+#hero .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+/* About Section */
+.about-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Skills Section */
+.skill-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.skill-item h4 {
+    font-size: 1.5rem;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+}

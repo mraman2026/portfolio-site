@@ -1,0 +1,11 @@
+h1{
+    font-size: 5vw;
+    font-style: italic;
+    text-transform: uppercase;
+    font-stretch:  condensed;
+
+}
+p{
+    line-height: normal;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,12 @@
+.first,.third{
+    height: 40vh;
+    width: 25vw;
+    background-color: red;
+
+}
+.second,.fourth{
+    height: 40vh;
+    width: 25vw;
+    background-color: red;
+    
+}

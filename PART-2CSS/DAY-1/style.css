@@ -1,0 +1,19 @@
+/*h1{
+    color:bisque;
+    background-color: azure;
+}
+.first{
+    color:blue;
+}
+body{
+    background-color: #6c2d2d;
+}
+    */
+    /*section p{
+        background-color: aqua;
+    }
+        */
+        section > p{
+            background-color: rgb(185, 119, 119);
+        }
+    
